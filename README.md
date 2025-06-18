@@ -142,7 +142,7 @@ prompt-lab/
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/prompt-lab.git
+git clone https://github.com/AITech-Team/prompt-lab.git
 cd prompt-lab
 ```
 
