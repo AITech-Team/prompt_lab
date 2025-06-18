@@ -1,0 +1,99 @@
+.optimization-result {
+  padding: 16px 0;
+}
+
+.result-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.result-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.result-panel {
+  min-height: 200px;
+}
+
+.result-panel .ant-card-body {
+  padding: 12px;
+}
+
+.reasoning-content,
+.evaluation-content {
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #666;
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.result-actions {
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* 响应式布局 */
+@media (max-width: 1024px) {
+  .result-panels {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 优化表单样式 */
+.ant-form-item-label > label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.ant-input,
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #3b82f6;
+}
+
+.ant-checkbox-wrapper {
+  font-size: 14px;
+}
+
+.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+/* 卡片标题样式 */
+.ant-card-head-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 滚动条样式 */
+.reasoning-content::-webkit-scrollbar,
+.evaluation-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.reasoning-content::-webkit-scrollbar-track,
+.evaluation-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.reasoning-content::-webkit-scrollbar-thumb,
+.evaluation-content::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.reasoning-content::-webkit-scrollbar-thumb:hover,
+.evaluation-content::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

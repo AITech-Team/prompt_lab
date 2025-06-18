@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+openai
+anthropic
+httpx
+volcenginesdkarkruntime
+pyjwt
+python-multipart
+python-dotenv
+email-validator
